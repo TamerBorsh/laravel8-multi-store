@@ -1,0 +1,76 @@
+body {
+    direction: rtl;
+    text-align: start;
+}
+.navbar-custom {
+    right: 260px;
+    left: 0;
+}
+.float-end {
+    float: left !important;
+}
+.button-menu-mobile {
+    float: right;
+    margin: 0 24px 0 0;
+}
+.app-search span.search-icon {
+    left: 0;
+    right: 10px;
+    width: 30px;
+}
+.app-search .form-control {
+    padding: 0 40px 0 20px;
+}
+.navbar-custom .topbar-menu li {
+    float: right;
+}
+a.dropdown-item {
+    text-align: start;
+}
+.dropdown-menu-animated.dropdown-menu-end[style] {
+    right: auto !important;
+    left: 0 !important;
+}
+ul.side-nav {
+    padding-right: 0;
+}
+.side-nav .menu-arrow {
+    left: 30px;
+    right: auto;
+}
+body[data-leftbar-compact-mode=condensed]:not(.authentication-bg) .side-nav .side-nav-item .side-nav-link i {
+    margin-right:6px;
+    margin-left: 20px;
+}
+body[data-leftbar-compact-mode=condensed]:not(.authentication-bg) .wrapper .footer, body[data-leftbar-compact-mode=condensed]:not(.authentication-bg) .wrapper .navbar-custom {
+    right: 70px;
+    left: 0;
+}
+.leftside-menu.menuitem-active {
+    right: 0;
+}
+body[data-leftbar-compact-mode=condensed]:not(.authentication-bg) .wrapper .content-page {
+    margin: 0 70px 0 0;
+}
+.content-page {
+    margin: 0 260px 0 0;
+}
+.page-title-box .page-title-right {
+    float: left;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    float: right;
+    padding-right: 0.5rem;
+}
+.end-bar-enabled .end-bar {
+    right: auto;
+    left: 0;
+}
+
+footer.footer {
+    left: 0;
+    right: 260px;
+}
+.text-md-end {
+    text-align: left!important;
+}
